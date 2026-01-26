@@ -54,7 +54,7 @@ const HeroSection = () => {
           data-aos="fade-up"
           data-aos-delay="300"
         >
-          Remappingplymouth
+          Remapping Plymouth
         </p>
 
         {/* CTA Button */}

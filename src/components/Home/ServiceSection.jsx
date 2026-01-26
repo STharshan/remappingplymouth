@@ -6,14 +6,14 @@ import "aos/dist/aos.css";
 
 const services = [
   {
-    title: "Alloy Wheel Repair",
-    desc: `Remove scuffs, scratches, and damage for wheels that look brand new.`,
+    title: "Engine Tuning",
+    desc: `Enhances your engine’s performance, improving power, responsiveness, and efficiency.`,
     image: "/carpaint.avif",
     path: "/services/mechanical",
   },
   {
-    title: "Dent Removal",
-    desc: `Seamless dent repair to restore panels back to factory condition.
+    title: "Engine Remapping",
+    desc: `Adjusts the engine’s software settings to maximize power, torque, and fuel efficiency.
 ​`,
     image: "/gray.avif",
     path: "/services/service",
@@ -149,7 +149,7 @@ const ServiceSection = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="absolute inset-0 w-[95%] mt-15 mx-auto h-55 object-cover"
+                    className="absolute inset-0 w-[65%] mt-20 mx-auto h-35 object-cover"
                     onError={(e) => {
                       e.currentTarget.onerror = null;
                       e.currentTarget.src = "/logo.png"; // fallback logo
